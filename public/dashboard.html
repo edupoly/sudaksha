@@ -1,0 +1,48 @@
+<html>
+    <body>
+        <h1>DashBoard</h1>
+        <button onClick="loadStudents()">Load Students</button>
+        <script>
+            function loadStudents(){
+                fetch("http://localhost:4500/allStudents")
+                .then(function(res){
+                    return res.json();
+                })
+                .then((data)=>{
+                    genUI(data)
+                })
+            }
+
+            function genUI(data){
+                var newTable = document.createElement("table");
+                newTable.setAttribute("border",2);
+                data.forEach((student)=>{
+                    var newtr = document.createElement("tr");
+
+                    var td1 = document.createElement("td");                    
+                    td1.innerHTML = student.firstname;
+                    newtr.appendChild(td1)
+
+                    var td2 = document.createElement("td");
+                    td2.innerHTML = student.lastname;
+                    newtr.appendChild(td2)
+
+                    var td3 = document.createElement("td");
+                    td3.innerHTML = student.area;
+                    newtr.appendChild(td3)
+
+                    var td4 = document.createElement("td");
+                    td4.innerHTML = student.technology;
+                    newtr.appendChild(td4)
+
+                    var td5 = document.createElement("td");
+                    td5.innerHTML = student.age;
+                    newtr.appendChild(td5)
+
+                    newTable.appendChild(newtr)
+                })
+                document.body.appendChild(newTable)
+            }
+        </script>
+    </body>
+</html>

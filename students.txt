@@ -1,0 +1,5 @@
+[{"firstname":"swetha","lastname":"maha","area":"gachi","technology":"react","age":"23"},{"firstname":"anupama","lastname":"kal","area":"juus","technology":"node","age":"33"},{"firstname":"rakesh","lastname":"josh","area":"rari","technology":"ml","age":"45"},{"firstname":"faria","lastname":"hussain","area":"oldcity","technology":"python","age":"12"},{"firstname":"druva","lastname":"srik","age":"12","area":"pragathinagar","technology":"linux"},
+{"firstname":"eshwar","lastname":"chandra","area":"vizag","age":24,"technology":"photoshop"},
+{"firstname":"chitu","lastname":"naga","area":"banjara","age":"36","technology":"movies"}]
+
+eyJhbGcwerwer1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VydkfjsdfksdkfjhwiueW5nIiwicGFzc3dvcmQiOiJhYmNkIiwiaWF0IjoxNjQzMDk1OTA5fQ.7a30qo1kfZK1Zcg5Iel-RAkMrXpwD0uQJpdtGilSago
